@@ -1,0 +1,23 @@
+# --- DATA FILTERS ---
+# Never upload the raw 800MB Cornell file
+data/raw/
+
+# Never upload the temporary files we are still cleaning
+data/intermediate/
+
+# Only upload the final small CSV if it is under 50MB
+# data/processed/ (Uncomment this if your final CSV is also too big)
+
+# --- PYTHON FILTERS ---
+# Ignore the "Compiled" python files (they make your GitHub look messy)
+__pycache__/
+*.pyc
+.env
+
+# --- MACHINE LEARNING FILTERS ---
+# Never upload the trained "Brains" (.pkl files) as they can be huge
+models/*.pkl
+
+# --- SYSTEM FILTERS ---
+# Ignore Mac-specific hidden files
+.DS_Store
