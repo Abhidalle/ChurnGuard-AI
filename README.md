@@ -20,3 +20,11 @@ It is a simple dashboard that helps businesses figure out which customers are ab
 `pip install streamlit pandas scikit-learn numpy joblib`
 3. Run the Streamlit app:
 `streamlit run app.py`
+
+
+### HERE IS THE VIDEO TO SEE IT IN ACTION
+
+
+https://github.com/user-attachments/assets/2236d571-a6e4-4607-80ce-9fea5e499857
+
+
